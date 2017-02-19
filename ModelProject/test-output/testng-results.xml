@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9486" started-at="2017-02-19T01:34:12Z" finished-at="2017-02-19T01:34:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9486" started-at="2017-02-19T01:34:12Z" finished-at="2017-02-19T01:34:21Z">
+      <class name="completeProject.Base">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:completeProject.Base@174d20a]" name="baseSetup" duration-ms="9447" started-at="2017-02-18T20:34:12Z" finished-at="2017-02-18T20:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+      </class> <!-- completeProject.Base -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
