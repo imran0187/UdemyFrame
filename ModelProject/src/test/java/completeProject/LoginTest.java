@@ -11,5 +11,6 @@ public class LoginTest extends Base{
 	lp.generateId("imran1");
 	lp.generatePass("1234");
 	lp.signin();
+	lp.driver.quit();
 	}
 }
