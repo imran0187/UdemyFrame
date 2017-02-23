@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="bro" value="chrome"/>
+  <test name="Testfirefox(failed)">
+    <parameter name="bro" value="firefox"/>
+    <classes>
+      <class name="completeProject.CrossBrowserConfig">
+        <methods>
+          <include name="QuitBrowser"/>
+          <include name="QuitBrowser"/>
+          <include name="loginTest"/>
+          <include name="multipleBrowserTest"/>
+          <include name="multipleBrowserTest"/>
+        </methods>
+      </class> <!-- completeProject.CrossBrowserConfig -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+  <test name="Testchrome(failed)">
+    <parameter name="bro" value="chrome"/>
+    <classes>
+      <class name="completeProject.CrossBrowserConfig">
+        <methods>
+          <include name="QuitBrowser"/>
+          <include name="QuitBrowser"/>
+          <include name="loginTest"/>
+          <include name="multipleBrowserTest"/>
+          <include name="multipleBrowserTest"/>
+        </methods>
+      </class> <!-- completeProject.CrossBrowserConfig -->
+    </classes>
+  </test> <!-- Testchrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
